@@ -59,3 +59,27 @@
 - Todas las instancias de una clase tienen acceso a los mismos métodos a través de la **. notación (punto)**.
 
 - Un método, como una función, generalmente no modifica el objeto inicial.
+
+## Crear Colecciones para almacenar Objetos
+
+###### Aspectos básicos del uso de los diferentes "tipos de colección"
+
+- Listas: colección ordenada y editable donde cada elemento está asociado con un índice
+
+- Diccionarios: colección editable desordenada donde cada elemento está asociado con una clave
+
+- Tuplas: colección ordenada, inmutable, donde cada elemento está asociado con un índice
+
+- Las acciones más comunes realizadas con listas y diccionarios son:
+
+    - Acceder a un elemento
+
+    - Agregar un elemento
+
+    - Eliminar un elemento
+
+    - Modificar un elemento
+
+    - Contar el número de artículos almacenados
+
+- Podemos realizar estas diferentes acciones a través de métodos.
