@@ -45,3 +45,17 @@
 - Los parámetros que se pasan a una función se denominan argumentos.
 
 - Puede utilizar la función de ayuda **help()** para imprimir la documentación de una función determinada.
+
+## Programación orientada a objetos
+
+###### Definición de Clases
+
+- Una clase es un plan de construcción para un objeto.
+
+- Una variable es una instancia de una clase o un objeto.
+
+- Un objeto se define por sus atributos.
+
+- Todas las instancias de una clase tienen acceso a los mismos métodos a través de la **. notación (punto)**.
+
+- Un método, como una función, generalmente no modifica el objeto inicial.
