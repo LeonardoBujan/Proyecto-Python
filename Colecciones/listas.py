@@ -1,3 +1,7 @@
+"""
+Definición de colecciones: listas
+"""
+
 listaNombres = ["Leonardo", "Rubén", "María", "Pablo"]
 print(listaNombres[2])
 
@@ -5,8 +9,11 @@ print(listaNombres[2])
 listaNombres[2] = "Roberto"
 print(listaNombres[2])
 
-listaNombres.append("Martín") # Agrega un valor nuevo a la lista en la última posición
-listaNombres.insert(0, "Florencia") # Inserta un valor nuevo en la lista en una posición especificada como parámetro
+# Agrega un valor nuevo a la lista en la última posición
+listaNombres.append("Martín")
+
+# Inserta un valor nuevo en la lista en una posición especificada
+listaNombres.insert(0, "Florencia")
 
 print(listaNombres)
 

@@ -1,3 +1,7 @@
+"""
+Definición de colecciones: diccionarios
+"""
+
 cuentas = {"Leonardo Bujan":3000, "Alberto Castillo": 1500, "María Gomez": 670.25}
 print(cuentas)
 

@@ -1,8 +1,12 @@
+"""
+Definición de Clases
+"""
 class Persona:
-  def __init__(variable, nombre, edad, altura):
-    variable.nombre = nombre
-    variable.edad = edad
-    variable.altura = altura
+    """Clase Persona"""
+    def __init__(self, nombre, edad, altura):
+        self.nombre = nombre
+        self.edad = edad
+        self.altura = altura
 
 persona1 = Persona("Leonardo", 36, 1.72)
 

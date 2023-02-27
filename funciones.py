@@ -1,30 +1,34 @@
-a = "manzana"
+"""
+Definición de funciones
+"""
+
+A = "manzana"
 
 # Retorna la longitud de un elemento
-longitudVariable = len(a)
-print(longitudVariable)
+LONGITUDVARIABLE = len(A)
+print(LONGITUDVARIABLE)
 
 # Retorna el tipo de una variable
-tipoVariable = type(a)
-print(tipoVariable)
+TipoVariable = type(A)
+print(TipoVariable)
 
-b = 2
-c = 4
+B = 2
+C = 4
 # Retorna el valor de calcular a elevado a b, equivalente a escribir a**b
-resultadoPotencia = pow(b, c)
-print(resultadoPotencia)
+ResultadoPotencia = pow(B, C)
+print(ResultadoPotencia)
 
 # Retorna el valor absoluto de un número
-d = -500
-valorAbsoluto = abs(d)
-print(valorAbsoluto)
+D = -500
+ValorAbsoluto = abs(D)
+print(ValorAbsoluto)
 
 # Definición de funciones
-def sumarNumeros(valor1, valor2):
-    resultado = valor1 + valor2
-    return resultado
+def sumar_numeros(valor1, valor2):
+    """Funcion que recibe 2 valores como parámetros y retorna como resultado la suma de ambos"""
+    Resultado = valor1 + valor2
+    return Resultado
 
-num1 = 10
-num2 = 15
-print("El resultado de sumar ", num1, " + ", num2, " es igual a: ", sumarNumeros(num1, num2))
-
+NUM1 = 10
+NUM2 = 15
+print("El resultado de sumar ", NUM1, " + ", NUM2, " es igual a: ", sumar_numeros(NUM1, NUM2))

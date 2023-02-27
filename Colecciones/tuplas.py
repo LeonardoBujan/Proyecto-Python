@@ -1,3 +1,7 @@
+"""
+Definición de colecciones: tuplas
+"""
+
 miTupla = ("a", "b", "c", [5, 9], {"Juan":500, "Marcos":1000})
 print(miTupla)
 
